@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python313"]
+
+[start]
+cmd = "python bot.py"
+
+[variables]
+PYTHONPATH = "/app"
